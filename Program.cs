@@ -10,6 +10,14 @@ public class Program
         b = temp;
     }
 
+    public static T FindMax<T>(T a, T b) where T : IComparable<T>
+    {
+        if (a.CompareTo(b) > 0)
+            return a;
+        else
+            return b;
+    }
+
 
 
 
@@ -53,6 +61,13 @@ public class Program
 
         Console.WriteLine(x);
         Console.WriteLine(y);
+
+        Console.WriteLine("-------------------------------------");
+
+        Console.WriteLine(FindMax(10, 20));
+        Console.WriteLine(FindMax(5.5, 3.2));
+
+
 
     }
 
