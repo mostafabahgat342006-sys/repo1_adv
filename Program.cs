@@ -137,7 +137,7 @@ public class Program
 
 
 
-         
+          
 
 
 
@@ -221,7 +221,20 @@ public class Program
         Console.WriteLine(numbers.Get(1));
         Console.WriteLine(numbers.Get(5));
 
+        Console.WriteLine("-------------------------------------");
 
+
+        Cache<int, string> cache = new Cache<int, string>();
+
+        cache.Add(1, "Ahmed", 60);
+      
+
+        Console.WriteLine(cache.Get(1));       // Ahmed
+        Console.WriteLine(cache.Contains(1));  // True
+
+        cache.Remove(1);
+
+        Console.WriteLine(cache.Contains(1));  // False
 
     }
 
