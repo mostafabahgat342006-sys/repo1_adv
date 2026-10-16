@@ -96,6 +96,12 @@ public class Program
               followed by the constraints separated by comma .
 
 
+          Q13- The default keyword returns the default value of a generic type T.
+                - For value types like int, -> returns 0.
+                - For bool, -> returns false.
+                - For reference types like string, -> returns null.
+
+
 
 
         */
