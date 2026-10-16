@@ -20,10 +20,15 @@ public class Program
             return b;
     }
 
-    public class Student
+    public class Student : IPrintable
     {
         public Student()
         {
+        }
+
+        public void Print()
+        {
+            Console.WriteLine("Student Info");
         }
     }
 
@@ -79,6 +84,12 @@ public class Program
                public parameterless constructor ( constructor with no parameters).
 
 
+
+          Q10- interface constraint ensure that the generic type T must implement a specific interface.
+
+
+
+
         */
 
 
@@ -119,10 +130,21 @@ public class Program
         Console.WriteLine("new() constraint :");
 
 
-        Container3<Student> c = new Container3<Student>();
+        Container3<Student> c3 = new Container3<Student>();
 
-        Student s = c.Create();
+        Student s = c3.Create();
         Console.WriteLine("done ");
+
+
+        Console.WriteLine("-------------------------------------");
+
+
+        Console.WriteLine("interface constraint :");
+
+
+        Container4<Student> c4 = new Container4<Student>();
+
+        c4.Show(new Student());
 
 
     }
