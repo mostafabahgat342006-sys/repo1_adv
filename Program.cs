@@ -132,6 +132,16 @@ public class Program
 
 
 
+          Q19- A generic class can be inherited using the : , just like a normal any class
+                The derived class can use the same generic type parameter <T>.
+
+
+
+         
+
+
+
+
 
 
 
