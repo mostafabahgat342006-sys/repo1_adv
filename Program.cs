@@ -1,4 +1,6 @@
-﻿namespace c__Advanced_ass1;
+﻿using System.Net.WebSockets;
+
+namespace c__Advanced_ass1;
 
 public class Program
 {
@@ -56,6 +58,15 @@ public class Program
                  with different data types while maintaining a code reusability.
 
 
+
+           Q7- The struct constraint ensure that the generic type <T> must be value type
+                such as int, double, bool, or a struct.
+            
+
+              
+
+
+
         */
 
 
@@ -72,7 +83,14 @@ public class Program
         Console.WriteLine(FindMax(10, 20));
         Console.WriteLine(FindMax(5.5, 3.2));
 
+        Console.WriteLine("-------------------------------------");
 
+
+        Console.WriteLine("struct constraint :");
+        Container<int> c1 = new Container<int>();
+        c1.Value = 10;
+
+        Console.WriteLine(c1.Value);
 
     }
 
