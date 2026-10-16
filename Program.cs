@@ -103,6 +103,13 @@ public class Program
 
 
 
+          Q15- Covariance : Allow us to use a child type instead of a parent type in generics.
+              out keyword : Allows a generic interface to return a child type as a parent type.
+                Example   : If Dog inherits from Animal, we can use IProducer<Dog> as IProducer<Animal>.
+
+
+         
+
 
         */
 
