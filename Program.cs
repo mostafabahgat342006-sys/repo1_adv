@@ -20,7 +20,12 @@ public class Program
             return b;
     }
 
-
+    public class Student
+    {
+        public Student()
+        {
+        }
+    }
 
 
 
@@ -68,6 +73,12 @@ public class Program
                  such as a class or string.
 
 
+
+
+          Q9- The new() constraint ensure that the generic type T must have a 
+               public parameterless constructor ( constructor with no parameters).
+
+
         */
 
 
@@ -103,6 +114,15 @@ public class Program
         Console.WriteLine(c1.Value);
 
 
+        Console.WriteLine("-------------------------------------");
+
+        Console.WriteLine("new() constraint :");
+
+
+        Container3<Student> c = new Container3<Student>();
+
+        Student s = c.Create();
+        Console.WriteLine("done ");
 
 
     }
