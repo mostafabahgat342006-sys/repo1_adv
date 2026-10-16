@@ -51,6 +51,11 @@ public class Program
 
             Q4- A generic method is a method that can work with different data types using a type parameter <T>.
 
+            
+            Q6- A generic interface is an interface that uses a type parameter <T> to work 
+                 with different data types while maintaining a code reusability.
+
+
         */
 
 
