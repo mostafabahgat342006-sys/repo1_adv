@@ -18,6 +18,14 @@ public class Program
 
                    4- Cleaner Code: Reduces code duplication.
 
+
+
+
+
+
+             Q3- Multiple type parameters allow a generic class to work 
+                  with more than one data type at the same time.
+
         */
 
 
