@@ -126,6 +126,16 @@ public class Program
 
 
 
+          Q18- Static members in generic classes are shared between all objects of the same type.
+                each different generic type has its own separate copy of static members.
+
+
+
+
+
+
+
+
 
              
 
