@@ -2,7 +2,18 @@
 
 public class Program
 {
-    
+
+    public static void Swap<T>(ref T a, ref T b)
+    {
+        T temp = a;
+        a = b;
+        b = temp;
+    }
+
+
+
+
+
     static void Main(string[] args)
     {
 
@@ -26,15 +37,27 @@ public class Program
              Q3- Multiple type parameters allow a generic class to work 
                   with more than one data type at the same time.
 
+
+
+
+
+            Q4- A generic method is a method that can work with different data types using a type parameter <T>.
+
         */
 
 
+        int x = 10;
+        int y = 20;
 
+        Swap(ref x, ref y);
 
-
-
+        Console.WriteLine(x);
+        Console.WriteLine(y);
 
     }
+
+
+    
 }      
 
 
