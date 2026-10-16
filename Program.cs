@@ -92,7 +92,8 @@ public class Program
                  inherit from a specific base class or be that base class itself.
 
 
-          
+          Q12- Multiple constraints are applied using the [where] keyword
+              followed by the constraints separated by comma .
 
 
 
