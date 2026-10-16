@@ -161,6 +161,22 @@ public class Program
         c4.Show(new Student());
 
 
+
+        Console.WriteLine("-------------------------------------");
+
+        Console.WriteLine("SafeList<T> :");
+
+        SafeList<int> numbers = new SafeList<int>();
+
+        numbers.Add(10);
+        numbers.Add(20);
+
+        Console.WriteLine(numbers.Get(0));
+        Console.WriteLine(numbers.Get(1));
+        Console.WriteLine(numbers.Get(5));
+
+
+
     }
 
 
