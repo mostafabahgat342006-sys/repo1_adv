@@ -108,7 +108,9 @@ public class Program
                 Example   : If Dog inherits from Animal, we can use IProducer<Dog> as IProducer<Animal>.
 
 
-         
+          Q16- Q16: Contravariance : Allows us to use a parent type instead of a child type in generics.
+                    in keyword    : Allows a generic interface to accept a parent type where a child type is expected.
+                    Example  : If Dog inherits from Animal, we can use IProcessor<Animal> as IProcessor<Dog>.
 
 
         */
