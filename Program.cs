@@ -64,7 +64,8 @@ public class Program
             
 
               
-
+           Q8- The class constraint ensures that the generic type T must be a reference type
+                 such as a class or string.
 
 
         */
@@ -91,6 +92,18 @@ public class Program
         c1.Value = 10;
 
         Console.WriteLine(c1.Value);
+
+        Console.WriteLine("-------------------------------------");
+
+
+        Console.WriteLine("class constraint :");
+        Container2<string> c2 = new Container2<string>();
+        c2.Value = "Hello";
+
+        Console.WriteLine(c1.Value);
+
+
+
 
     }
 
