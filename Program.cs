@@ -88,6 +88,13 @@ public class Program
           Q10- interface constraint ensure that the generic type T must implement a specific interface.
 
 
+          Q11- The base class constraint ensure that the generic type T must
+                 inherit from a specific base class or be that base class itself.
+
+
+          
+
+
 
 
         */
